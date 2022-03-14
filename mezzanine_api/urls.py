@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from django.conf.urls import url, include, re_path
+from django.conf.urls import include, re_path
 from rest_framework import routers
 from rest_framework_swagger.views import get_swagger_view
 from .views import UserViewSet, PostViewSet, CategoryViewSet, PageViewSet, SiteViewSet
